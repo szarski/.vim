@@ -22,5 +22,4 @@ noremap <D-{> :bp<CR>
 
 set guifont=Menlo:h15
  
-:so $HOME/.vim/Buftabs_config.vim
-":so $HOME/.vim/MiniBufExplorer_config.vim
+:so $HOME/.vim/config/Buftabs_config.vim

@@ -42,9 +42,9 @@
 
 "" Config files to source from """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-  :so $HOME/.vim/NerdTree_config.vim
-  :so $HOME/.vim/Ack_config.vim
-  :so $HOME/.vim/Buftabs_config.vim
+  :so $HOME/.vim/config/NerdTree_config.vim
+  :so $HOME/.vim/config/Ack_config.vim
+  :so $HOME/.vim/config/Buftabs_config.vim
 
 "" MAPPINGS AND COMMANDS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
