@@ -23,3 +23,4 @@ noremap <D-{> :bp<CR>
 set guifont=Menlo:h15
  
 :so $HOME/.vim/config/Buftabs_config.vim
+:so $HOME/.vim/config/OverLength_config.vim

@@ -1,4 +1,4 @@
-"" INDENTATION AND SYNTAX """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" INDENTATION AND SYNTAX """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   :set shiftwidth=2
   :set expandtab
@@ -19,7 +19,7 @@
   au BufRead,BufNewFile *.pp set ft=puppet
   au BufRead,BufNewFile *.rb set ft=ruby
 
-"" VUNDLER """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" VUNDLER """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   set rtp+=~/.vim/bundle/vundle/
    call vundle#rc()
@@ -41,13 +41,14 @@
   Bundle 'nono/vim-handlebars'
   Bundle 'vim-ruby/vim-ruby'
 
-"" Config files to source from """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" Config files to source from """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   :so $HOME/.vim/config/NerdTree_config.vim
   :so $HOME/.vim/config/Ack_config.vim
   :so $HOME/.vim/config/Buftabs_config.vim
+  :so $HOME/.vim/config/OverLength_config.vim
 
-"" MAPPINGS AND COMMANDS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" MAPPINGS AND COMMANDS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   " normal mode
   nmap <C-l> :bn <CR>
@@ -79,12 +80,12 @@
   command! -nargs=* -complete=file BAck call BetterAck(<q-args>)
 
 
-"" AUTOCMDs """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" AUTOCMDs """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   autocmd QuickFixCmdPost *grep* cwindow " open window on ack
   autocmd BufEnter * :Rooter
 
-"" FUNCTIONS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" FUNCTIONS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   function! GetUnlistedBuffers()
     let kept_buffer_names = ['GoToFile']
@@ -119,4 +120,4 @@
     return ":tabnew | :args" . fdir . '/* | vertical all'
   endfunction
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
