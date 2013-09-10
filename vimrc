@@ -59,8 +59,8 @@
   "Closes buffer without closing its windows:
   nmap <C-m> :Bdelete <CR>
 
-  nmap <Esc><Esc> <C-w><C-w>
-  nmap <Esc><Esc><Esc> :call SmartToggleNerdTree() <CR>
+  nmap <Esc><Esc><Esc> <C-w><C-w>
+  nmap <Esc><Esc> :call SmartToggleNerdTree() <CR>
   nmap <expr> <C-e> Elocal()
 
   " command mode
