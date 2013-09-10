@@ -32,7 +32,8 @@
   Bundle 'airblade/vim-rooter'
   Bundle 'wincent/Command-T'
   Bundle 'moll/vim-bbye'
-  Bundle 'file:///Volumes/workspace/buftabs' " 'szarski/buftabs'
+  " 'szarski/buftabs'
+  Bundle 'file:///Volumes/workspace/buftabs'
 
   "Language-specific:
   Bundle 'rodjek/vim-puppet'
