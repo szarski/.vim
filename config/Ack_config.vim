@@ -1,16 +1,13 @@
 " Ack config
 
-let g:ack_ignored_directories = [ '.git', 'bin', 'log', 'script', 'build', 'node_modules', '.bundle' ]
+let s:ackprg_base="/opt/boxen/homebrew/bin/ack -H --nocolor --nogroup --column"
 
-function! BetterAck (args)
-  "let g:ackprg="ack\\ -H\\ --nocolor\\ --nogroup"
-  let ackprg_copy = g:ackprg
+let s:ack_ignored_directories = [ '.git', 'bin', 'log', 'script', 'build', 'node_modules', '.bundle', '.tmp' ]
 
-  for dir in g:ack_ignored_directories
-    let g:ackprg .= "\\ --ignore-dir=" . dir
-  endfor
+for dir in s:ack_ignored_directories
+  let s:ackprg_base .= " --ignore-dir=" . dir
+endfor
 
-  call Ack(a:args)
+let g:ackprg = s:ackprg_base
 
-  let g:ackprg = ackprg_copy
-endfunction
+" autocmd QuickFixCmdPost *grep* cwindow " open window on ack
