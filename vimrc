@@ -83,6 +83,7 @@
 
   autocmd QuickFixCmdPost *grep* cwindow " open window on ack
   autocmd BufEnter * :Rooter
+  autocmd BufWritePost * execute "CommandTFlush"
 
 "" FUNCTIONS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
