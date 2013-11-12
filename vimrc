@@ -26,7 +26,7 @@
 
   Bundle 'gmarik/vundle'
   Bundle 'scrooloose/syntastic'
-  Bundle 'ack.vim'
+  Bundle 'mileszs/ack.vim'
   Bundle 'scrooloose/nerdtree'
   Bundle 'tpope/vim-fugitive'
   Bundle 'airblade/vim-rooter'
