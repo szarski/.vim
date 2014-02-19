@@ -40,6 +40,7 @@
   Bundle 'kchmck/vim-coffee-script'
   Bundle 'nono/vim-handlebars'
   Bundle 'vim-ruby/vim-ruby'
+  Bundle 'tpope/vim-bundler'
 
 "" Config files to source from """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
