@@ -33,6 +33,7 @@
   Bundle 'wincent/Command-T'
   Bundle 'moll/vim-bbye'
   Bundle 'szarski/buftabs'
+  Bundle 'rking/ag.vim'
 
   "Language-specific:
   Bundle 'rodjek/vim-puppet'
@@ -44,6 +45,7 @@
 
   :so $HOME/.vim/config/NerdTree_config.vim
   :so $HOME/.vim/config/Ack_config.vim
+  :so $HOME/.vim/config/Ag_config.vim
   :so $HOME/.vim/config/Buftabs_config.vim
   :so $HOME/.vim/config/OverLength_config.vim
 
@@ -81,7 +83,6 @@
 
 "" AUTOCMDs """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-  autocmd QuickFixCmdPost *grep* cwindow " open window on ack
   autocmd BufEnter * :Rooter
   autocmd BufWritePost * execute "CommandTFlush"
 
