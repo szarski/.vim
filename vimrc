@@ -80,6 +80,8 @@
   "Ack BAck command
   command! -nargs=* -complete=file BAck call BetterAck(<q-args>)
 
+  command! RemoveSwap call RemoveSwapFiles()
+
 
 "" AUTOCMDs """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -120,5 +122,9 @@
     let fdir = expand('%:p:h')
     return ":tabnew | :args" . fdir . '/* | vertical all'
   endfunction
+
+  function! RemoveSwapFiles()
+    exec "!rm " . &backupdir . "*"
+  endf
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
