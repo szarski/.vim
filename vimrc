@@ -70,6 +70,7 @@
 
   " command mode
   cnoremap <C-a> <Home>
+  cnoremap <C-d> <Delete>
   cnoremap <C-e> <End>
   cnoremap <C-p> <Up>
   cnoremap <C-n> <Down>
