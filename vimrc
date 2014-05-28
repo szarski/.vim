@@ -34,6 +34,8 @@
   Bundle 'moll/vim-bbye'
   Bundle 'szarski/buftabs'
   Bundle 'rking/ag.vim'
+  Bundle 'flazz/vim-colorschemes'
+  Bundle 'vim-scripts/ScrollColors'
 
   "Language-specific:
   Bundle 'rodjek/vim-puppet'
