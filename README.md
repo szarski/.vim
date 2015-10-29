@@ -7,7 +7,7 @@ Usage
 -----
 
 ```bash
-git clone https://github.com/akitaonrails/vimfiles.git ~/.vim
+git clone https://github.com/szarski/.vim.git ~/.vim
 echo "source ~/.vim/vimrc" > ~/.vimrc
 echo "source ~/.vim/gvimrc" > ~/.gvimrc
 ```
