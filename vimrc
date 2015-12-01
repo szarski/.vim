@@ -28,7 +28,6 @@
   " let Vundle manage Vundle, required
   Plugin 'VundleVim/Vundle.vim'
 
-  Plugin 'gmarik/vundle'
   Plugin 'scrooloose/syntastic'
   Plugin 'mileszs/ack.vim'
   Plugin 'scrooloose/nerdtree'
