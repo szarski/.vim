@@ -21,28 +21,32 @@
 
 "" VUNDLER """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-  set rtp+=~/.vim/bundle/vundle/
-   call vundle#rc()
+  " set the runtime path to include Vundle and initialize
+  set rtp+=~/.vim/bundle/Vundle.vim
+  call vundle#begin()
 
-  Bundle 'gmarik/vundle'
-  Bundle 'scrooloose/syntastic'
-  Bundle 'mileszs/ack.vim'
-  Bundle 'scrooloose/nerdtree'
-  Bundle 'tpope/vim-fugitive'
-  Bundle 'airblade/vim-rooter'
-  Bundle 'wincent/Command-T'
-  Bundle 'moll/vim-bbye'
-  Bundle 'szarski/buftabs'
-  Bundle 'rking/ag.vim'
-  Bundle 'flazz/vim-colorschemes'
-  Bundle 'vim-scripts/ScrollColors'
+  " let Vundle manage Vundle, required
+  Plugin 'VundleVim/Vundle.vim'
+
+  Plugin 'gmarik/vundle'
+  Plugin 'scrooloose/syntastic'
+  Plugin 'mileszs/ack.vim'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'tpope/vim-fugitive'
+  Plugin 'airblade/vim-rooter'
+  Plugin 'wincent/Command-T'
+  Plugin 'moll/vim-bbye'
+  Plugin 'szarski/buftabs'
+  Plugin 'rking/ag.vim'
+  Plugin 'flazz/vim-colorschemes'
+  Plugin 'vim-scripts/ScrollColors'
 
   "Language-specific:
-  Bundle 'rodjek/vim-puppet'
-  Bundle 'kchmck/vim-coffee-script'
-  Bundle 'nono/vim-handlebars'
-  Bundle 'vim-ruby/vim-ruby'
-  Bundle 'tpope/vim-bundler'
+  Plugin 'rodjek/vim-puppet'
+  Plugin 'kchmck/vim-coffee-script'
+  Plugin 'nono/vim-handlebars'
+  Plugin 'vim-ruby/vim-ruby'
+  Plugin 'tpope/vim-bundler'
 
 "" Config files to source from """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
