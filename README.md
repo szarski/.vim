@@ -6,7 +6,7 @@ This is just my .vim configuration
 Usage
 -----
 
-First:
+Clone the repo, install Vundle and link files
 ```bash
 git clone https://github.com/szarski/.vim.git ~/.vim
 mkdir ~/.vim/backup
@@ -15,12 +15,12 @@ echo "source ~/.vim/vimrc" > ~/.vimrc
 echo "source ~/.vim/gvimrc" > ~/.gvimrc
 ```
 
-In VI
+Install plugins in vi
 ```vimscript
 :PluginInstall
 ```
 
-To install Command-T
+Install Command-T
 ```bash
 cd ~/.vim/bundle/command-t/ruby/command-t
 ruby extconf.rb
