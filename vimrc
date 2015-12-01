@@ -47,6 +47,9 @@
   Plugin 'vim-ruby/vim-ruby'
   Plugin 'tpope/vim-bundler'
 
+  call vundle#end()            " required
+  filetype plugin indent on    " required
+
 "" Config files to source from """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   :so $HOME/.vim/config/NerdTree_config.vim
