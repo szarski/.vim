@@ -93,7 +93,7 @@
 
 "" AUTOCMDs """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-  autocmd BufEnter * :Rooter
+  "autocmd BufEnter * :Rooter
   autocmd BufWritePost * execute "CommandTFlush"
 
 "" FUNCTIONS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
