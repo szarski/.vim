@@ -39,6 +39,7 @@
   Plugin 'rking/ag.vim'
   Plugin 'flazz/vim-colorschemes'
   Plugin 'vim-scripts/ScrollColors'
+  Plugin 'ngmy/vim-rubocop'
 
   "Language-specific:
   Plugin 'rodjek/vim-puppet'
