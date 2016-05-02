@@ -58,6 +58,8 @@
   :so $HOME/.vim/config/Ag_config.vim
   :so $HOME/.vim/config/Buftabs_config.vim
   :so $HOME/.vim/config/OverLength_config.vim
+  :so $HOME/.vim/config/Rubocop_config.vim
+  :so $HOME/.vim/config/CommandT_config.vim
 
 "" MAPPINGS AND COMMANDS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
