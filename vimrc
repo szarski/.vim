@@ -1,3 +1,4 @@
+
 "" INDENTATION AND SYNTAX """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   :set shiftwidth=2
@@ -60,6 +61,7 @@
   :so $HOME/.vim/config/OverLength_config.vim
   :so $HOME/.vim/config/Rubocop_config.vim
   :so $HOME/.vim/config/CommandT_config.vim
+  :so $HOME/.vim/config/Syntastic_config.vim
 
 "" MAPPINGS AND COMMANDS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
