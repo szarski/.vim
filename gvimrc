@@ -1,5 +1,5 @@
 set guioptions-=T
-colorscheme mophiaDark
+colorscheme minimalist
 highlight Cursor guifg=yellow guibg=red
 highlight iCursor guifg=red guibg=white
 highlight visual guifg=red guibg=yellow
