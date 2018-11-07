@@ -48,6 +48,7 @@
   Plugin 'nono/vim-handlebars'
   Plugin 'vim-ruby/vim-ruby'
   Plugin 'tpope/vim-bundler'
+  Plugin 'w0rp/ale'
 
   call vundle#end()            " required
   filetype plugin indent on    " required
@@ -61,6 +62,7 @@
   :so $HOME/.vim/config/OverLength_config.vim
   :so $HOME/.vim/config/Rubocop_config.vim
   :so $HOME/.vim/config/CommandT_config.vim
+  :so $HOME/.vim/config/Ale_config.vim
   :so $HOME/.vim/config/Syntastic_config.vim
 
 "" MAPPINGS AND COMMANDS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
