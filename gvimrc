@@ -6,6 +6,7 @@ highlight visual guifg=red guibg=yellow
 
 
 macmenu &File.New\ Tab key=<Nop>
+noremap <D-t> :CtrlP <CR>
 
 macmenu &File.New\ Window key=<Nop>
 map <silent><D-n> :tabnew<CR>

@@ -37,6 +37,7 @@
   Plugin 'scrooloose/nerdtree'
   Plugin 'tpope/vim-fugitive'
   Plugin 'airblade/vim-rooter'
+  Plugin 'ctrlpvim/ctrlp.vim'
   Plugin 'moll/vim-bbye'
   Plugin 'szarski/buftabs'
   Plugin 'rking/ag.vim'
@@ -65,6 +66,7 @@
   :so $HOME/.vim/config/Rubocop_config.vim
   :so $HOME/.vim/config/Ale_config.vim
   :so $HOME/.vim/config/Syntastic_config.vim
+  :so $HOME/.vim/config/CtrlP_config.vim
 
 "" MAPPINGS AND COMMANDS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
