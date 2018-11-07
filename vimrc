@@ -19,6 +19,9 @@
   au BufRead,BufNewFile *.handlebars set ft=handlebars
   au BufRead,BufNewFile *.pp set ft=puppet
   au BufRead,BufNewFile *.rb set ft=ruby
+  au BufRead,BufNewFile *.mc set ft=monkeyc
+  au BufRead,BufNewFile *.ex set ft=elixir
+  au BufRead,BufNewFile *.exs set ft=elixir
 
 "" VUNDLER """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
