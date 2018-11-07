@@ -37,7 +37,6 @@
   Plugin 'scrooloose/nerdtree'
   Plugin 'tpope/vim-fugitive'
   Plugin 'airblade/vim-rooter'
-  Plugin 'wincent/Command-T'
   Plugin 'moll/vim-bbye'
   Plugin 'szarski/buftabs'
   Plugin 'rking/ag.vim'
@@ -64,7 +63,6 @@
   :so $HOME/.vim/config/Buftabs_config.vim
   :so $HOME/.vim/config/OverLength_config.vim
   :so $HOME/.vim/config/Rubocop_config.vim
-  :so $HOME/.vim/config/CommandT_config.vim
   :so $HOME/.vim/config/Ale_config.vim
   :so $HOME/.vim/config/Syntastic_config.vim
 
@@ -106,7 +104,6 @@
 "" AUTOCMDs """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   "autocmd BufEnter * :Rooter
-  autocmd BufWritePost * execute "CommandTFlush"
 
 "" FUNCTIONS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
